@@ -14,11 +14,11 @@ int main(void)
 	n = 1024;
 	sum = 0;
 
-	while (n < 1024)
+	while (i < 1024)
 	{
-		if (n % 3 == 0 || n % 5 == 0)
+		if (i % 3 == 0 || i % 5 == 0)
 		{
-			sum = sum + n;
+			sum = sum + i;
 		}
 		i++;
 	}
