@@ -13,7 +13,7 @@ int main(void)
 	n1 = 1;
 	n2 = 2;
 	sum = sumeven = 0;
-	while (fn <= 4000000)
+	while (sum <= 4000000)
 	{
 		sum = n1 + n2;
 		n1 = n2;
